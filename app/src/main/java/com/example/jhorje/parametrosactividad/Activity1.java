@@ -60,7 +60,7 @@ public class Activity1 extends AppCompatActivity implements View.OnClickListener
             layDatos.setVisibility(View.INVISIBLE);
         } else {
             //No se ha recibido datos
-            layEdad.setVisibility(View.INVISIBLE);
+            layEdad.setVisibility(View.GONE);
         }
 
         btnEnviar.setOnClickListener(this);
@@ -97,8 +97,10 @@ public class Activity1 extends AppCompatActivity implements View.OnClickListener
 
         if (rdBtnHom.isChecked()){
             auxEdiSexo = "Hombre";
-        } else {
+        } else if (rdBtnMuj.isChecked()){
             auxEdiSexo = "Mujer";
+        } else {
+            auxEdiSexo = "un misterio";
         }
 
         explicit_intent.putExtra("nombre",auxEdiNombre);//Guardamos una cadena
