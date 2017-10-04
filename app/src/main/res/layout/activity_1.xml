@@ -25,7 +25,7 @@
                     android:layout_marginBottom="10dp"
                     android:layout_marginTop="43dp"
                     android:ems="10"
-                    android:hint="Nombre"
+                    android:hint="@string/txtNombre"
                     android:inputType="textPersonName"
                     android:singleLine="true" />
 
@@ -35,7 +35,7 @@
                     android:layout_height="wrap_content"
                     android:layout_above="@+id/radioGroup"
                     android:layout_alignParentStart="true"
-                    android:text="Sexo:"
+                    android:text="@string/txtSexo"
                     android:textSize="20sp" />
 
                 <RadioGroup
@@ -47,14 +47,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Hombre"/>
+                            android:text="@string/txtHombre"/>
 
                         <RadioButton
                             android:id="@+id/radioButton"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Mujer" />
+                            android:text="@string/txtMujer" />
                 </RadioGroup>
 
                 <Button
@@ -67,7 +67,7 @@
                     android:layout_margin="20dp"
                     android:background="@color/colorPrimary"
                     android:elevation="0dp"
-                    android:text="Enviar datos"
+                    android:text="@string/btnEnviarDatos"
                     android:textColor="@android:color/background_light"
                     android:textSize="15sp"
                     android:visibility="visible" />

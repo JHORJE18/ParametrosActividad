@@ -44,18 +44,21 @@ public class Activity1 extends AppCompatActivity implements View.OnClickListener
             if (datoEdad < 35){
                 if (datoEdad >= 25){
                     mensajeGuay = "estas en la flor de la vida";
+                    mensajeGuay = getString(R.string.txtFlorVida);
                 } else {
                     if ( datoEdad >= 18){
                         mensajeGuay = "ja eres major d'edat";
+                        mensajeGuay = getString(R.string.txtMayorEdad);
                     } else {
                         mensajeGuay = "sal cuanto antes, que no se enteren de que has usado esta app";
+                        mensajeGuay = getString(R.string.txtSalYa);
                     }
                 }
             } else {
-                mensajeGuay = "ai, ai, ai...";
+                mensajeGuay = getString(R.string.txtAi);
             }
 
-            txtEdad.setText("Tienes unos " + datoEdad + " años, " + mensajeGuay);
+            txtEdad.setText(getString(R.string.txtTienes) + datoEdad + getString(R.string.txtAños) + mensajeGuay);
             layEdad.setVisibility(View.VISIBLE);
             layDatos.setVisibility(View.GONE);
         } else {
@@ -87,7 +90,6 @@ public class Activity1 extends AppCompatActivity implements View.OnClickListener
     //Clic en botón
     public void onClick(View v) {
 
-        Log.w("BETA","Has pinchado");
         Intent explicit_intent;//Declaro el Intent
 
         //Creando Intent
@@ -96,11 +98,11 @@ public class Activity1 extends AppCompatActivity implements View.OnClickListener
         String auxEdiSexo = "";
 
         if (rdBtnHom.isChecked()){
-            auxEdiSexo = "Hombre";
+            auxEdiSexo = getString(R.string.txtHombre);
         } else if (rdBtnMuj.isChecked()){
-            auxEdiSexo = "Mujer";
+            auxEdiSexo = getString(R.string.txtMujer);
         } else {
-            auxEdiSexo = "un misterio";
+            auxEdiSexo = getString(R.string.txtOtro);
         }
 
         explicit_intent.putExtra("nombre",auxEdiNombre);//Guardamos una cadena

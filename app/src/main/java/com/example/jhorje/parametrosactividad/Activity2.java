@@ -31,7 +31,8 @@ public class Activity2 extends AppCompatActivity implements View.OnClickListener
             String datoNombre=(String)extras.get("nombre");//Obtengo el nombre
             String datoSexo= (String) extras.get("sexo");//Obtengo la edad
 
-            txtPantalla.setText("Hola " +  datoNombre + ", eres " + datoSexo);
+            txtPantalla.setText(getString(R.string.txtHola) +  datoNombre + getString(R.string.txtEres) + datoSexo);
+
         }
 
         btnContinuar.setOnClickListener(this);
