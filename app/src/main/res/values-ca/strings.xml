@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ParametrosActividad</string>
+    <string name="txtFlorVida">estas en la flor de la vida</string>
+    <string name="txtMayorEdad">ja eres major d\'edat</string>
+    <string name="txtSalYa">sal de l\'aplicació, aquesta app és per a majors d\'edat</string>
+    <string name="txtTienes">"Tens "</string>
+    <string name="txtEdad">Edat</string>
+    <string name="txtHola">"Hola "</string>
+    <string name="txtEres">", ets "</string>
+    <string name="txtAi">ai, ai, ai...</string>
+    <string name="btnEnviarDatos">Enviar dades</string>
+    <string name="txtSexo">Gènere:</string>
+    <string name="txtAños">" anys, "</string>
+    <string name="btnContinuar">Continuar</string>
+    <string name="txtHombre">Home</string>
+    <string name="txtNombre">Nom</string>
+    <string name="txtOtro">un misteri</string>
+    <string name="txtMujer">Dona</string>
+</resources>

@@ -10,10 +10,10 @@
     <string name="txtSalYa">exit please, this app is for people and 18 years old</string>
     <string name="txtMayorEdad">you are adult</string>
     <string name="txtFlorVida">you are in the prime of life</string>
-    <string name="txtTienes">You have a</string>
-    <string name="txtAños">years old,</string>
-    <string name="txtHola">Hello</string>
-    <string name="txtEres">, you are</string>
+    <string name="txtTienes">"You have a "</string>
+    <string name="txtAños">" years old, "</string>
+    <string name="txtHola">"Hello "</string>
+    <string name="txtEres">", you are "</string>
     <string name="txtEdad">Years old</string>
     <string name="btnContinuar">Continue</string>
 </resources>

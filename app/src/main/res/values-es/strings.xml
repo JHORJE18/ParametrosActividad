@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ParametrosActividad</string>
+    <string name="txtFlorVida">estas en la flor de la vida</string>
+    <string name="txtMayorEdad">ya eres mayor de edad</string>
+    <string name="txtSalYa">sal de la aplicación cuanto antes, que no se enteren de que has usado esta app</string>
+    <string name="txtTienes">"Tienes "</string>
+    <string name="txtEdad">Edad</string>
+    <string name="txtHola">"Hola "</string>
+    <string name="txtEres">", eres "</string>
+    <string name="txtAi">ai, ai, ai...</string>
+    <string name="btnEnviarDatos">Enviar datos</string>
+    <string name="btnContinuar">Continuar</string>
+    <string name="txtAños">" años, "</string>
+    <string name="txtSexo">Género:</string>
+    <string name="txtHombre">Hombre</string>
+    <string name="txtNombre">Nombre</string>
+    <string name="txtOtro">un misterio</string>
+    <string name="txtMujer">Mujer</string>
+</resources>

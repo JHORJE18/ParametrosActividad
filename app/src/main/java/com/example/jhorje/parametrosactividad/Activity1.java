@@ -43,11 +43,9 @@ public class Activity1 extends AppCompatActivity implements View.OnClickListener
             String mensajeGuay = "";
             if (datoEdad < 35){
                 if (datoEdad >= 25){
-                    mensajeGuay = "estas en la flor de la vida";
                     mensajeGuay = getString(R.string.txtFlorVida);
                 } else {
                     if ( datoEdad >= 18){
-                        mensajeGuay = "ja eres major d'edat";
                         mensajeGuay = getString(R.string.txtMayorEdad);
                     } else {
                         mensajeGuay = "sal cuanto antes, que no se enteren de que has usado esta app";
