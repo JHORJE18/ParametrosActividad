@@ -57,7 +57,7 @@ public class Activity1 extends AppCompatActivity implements View.OnClickListener
 
             txtEdad.setText("Tienes unos " + datoEdad + " años, " + mensajeGuay);
             layEdad.setVisibility(View.VISIBLE);
-            layDatos.setVisibility(View.INVISIBLE);
+            layDatos.setVisibility(View.GONE);
         } else {
             //No se ha recibido datos
             layEdad.setVisibility(View.GONE);
